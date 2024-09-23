@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<style>
+body{
+margin: 10px;
+padding: 0;
+}
+a{
+text-decoration: none;
+}
+body{
+background-image: url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg);
+background-size: cover;
+}
+.heading{
+color: white;
+font-size: 60px;
+text-align: center;
+font-weight: bold;
+font-family: serif;
+text-decoration: underline;
+margin-bottom: 20px;
+}
+.menu-base{
+background: rgba(173, 173, 255, 0.936);
+box-shadow: 0 0 5px 4px white;
+
+}
+.menu-base ul{
+text-align: right;
+}
+.menu-base ul li{
+display: inline;
+padding: 10px;
+}
+.menu-base ul li a{
+font-size: 30px;
+text-decoration: none;
+color: white;
+padding: 2px 20px;
+transition: all .5s;
+}
+.menu-base ul li a:hover{
+background-color: rgb(0, 0, 0);
+border-radius: 5px;
+box-shadow: 0 0 4px 4px white;
+}
+.topic{
+/* border: 5px solid black; */
+background: rgba(222, 226, 250, 0.623);
+box-shadow: 0 0 5px 4px white;
+margin-bottom: 6px;
+}
+.form{
+    text-align: center;
+    /* border: 5px solid black; */
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 3px black;
+    box-shadow: 0px 0px 5px 3px rgb(193, 201, 219);
+    font-size: 30px;
+    height: 400px;
+    width: 500px;
+    margin-left: 590px;
+    margin-top: 80px;
+    animation: deep 1s infinite alternate linear;
+}
+@keyframes deep{
+    form{}
+    to{
+        box-shadow: 0 0 6px 13px rgb(193, 201, 219);
+    }
+}
+.login{
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+@media screen and(max-width:960px) {
+.menu-base ul li{
+display: inline;
+padding: 4px;
+}
+.menu-base ul li a{
+font-size: 20px;
+text-decoration: none;
+color: white;
+padding: 2px 10px;
+transition: all .5s;
+}
+    
+}
+
+</style>
+</head>
+<body>
+<div class="heading">Programming Language</div>
+<div class="menu-base">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="signup.html">Signup</a></li>
+</ul>
+</div>
+<div>
+    <div class="div">
+        
+        <form class="form">
+            <h1 class="heading">LogIn Page</h1>
+            <br>
+            <input class="login" type="text" placeholder="Enter Username">
+            <br>
+            <br>
+            <input class="login" type="password" placeholder="Enter Password">
+            <br>
+            <br>
+            <input class="login" type="submit" value="LogIn">
+        </form>
+</div>
+</body>
+</html>

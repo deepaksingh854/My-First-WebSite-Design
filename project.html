@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<style>
+body{
+margin: 10px;
+padding: 0;
+}
+a{
+text-decoration: none;
+}
+body{
+background-image: url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg);
+background-size: cover;
+}
+.heading{
+color: white;
+font-size: 4vw;
+text-align: center;
+font-weight: bold;
+font-family: serif;
+text-decoration: underline;
+margin-bottom: 20px;
+}
+.menu-base{
+background: rgba(173, 173, 255, 0.936);
+box-shadow: 0 0 5px 4px white;
+
+}
+.menu-base ul{
+text-align: right;
+}
+.menu-base ul li{
+display: inline;
+padding: 10px;
+}
+.menu-base ul li a{
+font-size: 30px;
+text-decoration: none;
+color: white;
+padding: 2px 20px;
+transition: all .5s;
+}
+.menu-base ul li a:hover{
+background-color: rgb(0, 0, 0);
+border-radius: 5px;
+box-shadow: 0 0 4px 4px white;
+}
+.topic{
+/* border: 5px solid black; */
+background: rgba(222, 226, 250, 0.623);
+box-shadow: 0 0 5px 4px white;
+margin-bottom: 6px;
+}
+.menu-topic{
+text-decoration: underline;
+font-size: 30px;
+color: black;
+font-weight: bold;
+margin-left: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sub-topic{
+margin-left: 50px;
+}
+.sub-topic li{
+font-size: 25px;
+color: white;
+}
+.sub-topic a{
+font-size: 25px;
+color: white;
+transition: all .5s;
+}
+.sub-topic a:hover{
+text-decoration: underline;
+background-color:  rgba(222, 226, 250, 0.523);
+padding: 3px 10px;
+border-radius: 5px;
+}
+.about{
+    /* border: 5px solid black; */
+    box-shadow: 0 0 5px 4px white;
+    background-color: rgba(222, 226, 250, 0.523) ;
+}
+.h1{
+    font-size: 20px;
+}
+.p{
+    font-size: 15px;
+    padding-bottom: 6px;
+}
+@media screen and(max-width:1000px) {
+.menu-base ul li{
+display: inline;
+padding: 6px;
+}
+.menu-base ul li a{
+font-size: 20px;
+text-decoration: none;
+color: white;
+padding: 2px 15px;
+transition: all .5s;
+}
+    
+}
+@media screen and(max-width:960px) {
+.menu-base ul li{
+display: inline;
+padding: 4px;
+}
+.menu-base ul li a{
+font-size: 20px;
+text-decoration: none;
+color: white;
+padding: 2px 10px;
+transition: all .5s;
+}
+    
+}
+
+</style>
+</head>
+<body>
+<div class="heading">Programming Language</div>
+<div class="menu-base">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="signup.html">Signup</a></li>
+</ul>
+</div>
+<div class="topic">
+<ol>
+<li class="menu-topic">Front-end Language</li>
+<ol type="a" class="sub-topic">
+<li><a href="https://html.com/">HTML</a></li>
+<li><a href="https://www.tutorialspoint.com/css/index.htm">CSS</a></li>
+<li><a href="https://www.tutorialspoint.com/javascript/index.htm">JavaScript</a></li>
+<li><a href="https://bootstrapstudio.io/">Bootstrap</a></li>
+</ol>
+<li class="menu-topic">Back-end Language</li>
+<ol type="a" class="sub-topic">
+<li><a href="https://www.tutorialspoint.com/java/index.htm">Java</a></li>
+<li><a href="https://www.codecademy.com/catalog/language/python">Python</a></li>
+<li><a href="https://www.codecademy.com/catalog/language/php">PHP</a></li>
+<li><a href="https://dotnettutorials.net/">DotNet</a></li>
+</ol>
+<li class="menu-topic">Database</li>
+<ol type="a" class="sub-topic">
+<li><a href="https://hub.docker.com/_/mysql">MySql</a></li>
+<li><a href="https://www.sqlite.org/index.html">SqLite</a></li>
+<li><a href="https://www.techtarget.com/searchdatamanagement/definition/MongoDB">MongoDB</a></li>
+</ol>
+</ol>
+</div>
+<div class="about">
+    <h1>About us</h1>
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia pariatur itaque culpa neque ullam nostrum harum inventore ad recusandae quasi, sapiente distinctio voluptatem ab officiis veritatis dolorum ratione facilis!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos molestiae dolore adipisci incidunt, dicta ullam recusandae odit cupiditate eius quod magnam dolorum quibusdam perferendis quidem. Eius maxime obcaecati expedita quisquam.
+    </p>
+</div>
+</body>
+</html>

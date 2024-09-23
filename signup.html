@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<style>
+body{
+margin: 10px;
+padding: 0;
+}
+a{
+text-decoration: none;
+}
+body{
+background-image: url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg);
+background-size: cover;
+}
+.heading{
+color: white;
+font-size: 60px;
+text-align: center;
+font-weight: bold;
+font-family: serif;
+text-decoration: underline;
+margin-bottom: 20px;
+}
+.menu-base{
+background: rgba(173, 173, 255, 0.936);
+box-shadow: 0 0 5px 4px rgb(255, 255, 255);
+
+}
+.menu-base ul{
+text-align: right;
+}
+.menu-base ul li{
+display: inline;
+padding: 10px;
+}
+.menu-base ul li a{
+font-size: 30px;
+text-decoration: none;
+color: white;
+padding: 2px 20px;
+transition: all .5s;
+}
+.menu-base ul li a:hover{
+background-color: rgb(0, 0, 0);
+border-radius: 5px;
+box-shadow: 0 0 4px 4px white;
+}
+.topic{
+/* border: 5px solid black; */
+background: rgba(222, 226, 250, 0.623);
+box-shadow: 0 0 5px 4px white;
+margin-bottom: 6px;
+}
+.n1{
+            text-align: center;
+            /* border: 3px double blue; */
+            /* margin-top: 20px; */
+            margin-left: 500px;
+            margin-right: 500px;
+            height: 650px;
+            border-radius: 20px;
+            font-size: 25px;
+            color: white;
+            box-shadow: 0px 0px 5px 5px rgb(193, 201, 219);
+            animation: deep 1s infinite alternate linear;
+            /* padding-top: 0; */
+            
+        }
+        @keyframes deep{
+         form{}
+            to{
+           box-shadow: 0 0 6px 13px rgb(193, 201, 219);
+          }
+}
+        .in{
+            border-radius: 4px;
+            font-size: 15px;
+        }
+        .button{
+            font-size: 30px;
+            border-radius: 5px;
+            /* margin-top: 20px; */
+            background: rgb(243, 7, 7);
+            animation: deep 1.5s infinite alternate linear;
+        }
+        @keyframes deep{
+         form{}
+            to{
+           background: blue;
+          }
+        }
+@media screen and(max-width:960px) {
+.menu-base ul li{
+display: inline;
+padding: 4px;
+}
+.menu-base ul li a{
+font-size: 20px;
+text-decoration: none;
+color: white;
+padding: 2px 10px;
+transition: all .5s;
+}
+    
+}
+</style>
+</head>
+<body>
+<div class="heading">Programming Language</div>
+<div class="menu-base">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="signup.html">Signup</a></li>
+</ul>
+</div>
+<div class="n1">
+    <h1>User SignUp</h1>
+<form>
+    <b>Name</b>
+    <input class="in" type="text" placeholder="Enter Full Name">
+    <br>
+    <br>
+    <b>Email</b>
+    <input class="in" type="email" placeholder="Enter Gmail">
+    <br>
+    <br>
+    <b>Password</b>
+    <input class="in" type="password" placeholder="Enter password">
+    <br>
+    <br>
+    <!-- <b>Confirm Password</b>
+    <input class="in" type="password" placeholder="Confirm Password">
+    <br>
+    <br> -->
+    <b>Contact Number</b>
+    <input class="in" type="tel" placeholder="Enter Phone Number">
+    <br>
+    <br>
+    <b>DOB</b>
+    <input class="in" type="Date" min="1991-01-01" max="2023-01-01">
+    <br>
+    <br>
+    <b>Gender</b>&nbsp;
+    Male <input type="radio" name="abc">
+    female <input type="radio" name="abc">
+    <br>
+    <br>
+    
+    <b>Address</b>
+    <input class="in" type="textarea" placeholder="Enter Full Adderess">
+    <br>
+    <br>
+    <b>Pin code</b>
+    <input class="in" type="number" placeholder="Enter Pin Number">
+    <br>
+    <br>
+   <b> Apply for course</b>
+      <select class="in">
+        <option>BCA</option>
+        <option>B.Tech</option>
+        <option>BBA</option>
+      </select>
+      <br>
+    <br>
+    <input class="button" type="button" value="Submit">
+</form>
+</div>
+</body>
+</html>
