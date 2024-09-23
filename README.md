@@ -22,7 +22,7 @@ This project is a simple HTML and CSS-based website with essential navigation fu
 * CSS: For styling and responsive design.
 ### Setup and Installation
 * Clone the repository:
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/yourusername/My-First-WebSite-Design.git
 * Navigate to the project directory:
 cd your-repo-name
 Open the index.html file in your browser to view the website.
